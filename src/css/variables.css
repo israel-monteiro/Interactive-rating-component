@@ -1,0 +1,23 @@
+:root {
+    --colors-white: hsl(0, 100%, 100%);
+    --colors-black: hsl(0, 0%, 0%);
+
+    --colors-orange-500: hsl(25, 97%, 53%);
+
+    --colors-grey-500: hsl(217, 12%, 63%);
+    --colors-grey-900: hsl(213, 19%, 18%);
+    --colors-grey-950: hsl(216, 12%, 8%);
+
+    --spacing-50: 4px;
+    --spacing-100: 8px;
+    --spacing-200: 16px;
+    --spacing-300: 24px;
+    --spacing-400: 32px;
+    --spacing-500: 40px;
+    --spacing-600: 48px;
+    --spacing-700: 56px;
+    --spacing-800: 64px;
+
+    --max-width-sm: 343px;
+    --max-width-lg: 540px;
+}
