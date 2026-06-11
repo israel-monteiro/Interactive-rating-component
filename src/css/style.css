@@ -109,15 +109,13 @@ body {
     color: var(--colors-grey-900);
 }
 
-.rating-card__button:hover,
-.rating-card__button:focus {
+.rating-card__button:hover {
     background-color: var(--colors-orange-500);
     color: var(--colors-grey-900);
     outline: none;
 }
 
-.rating-card__submit:hover,
-.rating-card__submit:focus {
+.rating-card__submit:hover {
     background-color: var(--colors-white);
     color: var(--colors-grey-950);
     outline: none;

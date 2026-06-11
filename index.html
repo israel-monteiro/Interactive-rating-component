@@ -49,11 +49,11 @@
                             <button type="button" data-rating="4" class="rating-card__button">4</button>
                         </li>
                         <li class="rating-card__item">
-                            <button type="button" data-rating="5" class="rating-card__button selected">5</button>
+                            <button type="button" data-rating="5" class="rating-card__button">5</button>
                         </li>
                     </ul>
                 </div>
-                <button type="button" id="submit-rating" class="rating-card__submit">Submit</button>
+                <button type="submit" id="submit-rating" class="rating-card__submit">Submit</button>
             </section>
 
             <section id="thank-you-card" class="rating-card rating-card--thank-you hidden">
@@ -63,7 +63,7 @@
                     class="rating-card__illustration"
                 />
 
-                <p class="rating-card__selected-rating">You selected <span id="selected-rating">1</span> out of 5</p>
+                <p class="rating-card__selected-rating">You selected <span id="selected-rating"></span> out of 5</p>
                 <div class="rating-card__content">
                     <h1 class="rating-card__title">Thank you!</h1>
                     <p class="rating-card__description">
@@ -73,5 +73,7 @@
                 </div>
             </section>
         </main>
+
+        <script type="module" src="./src/js/main.js"></script>
     </body>
 </html>
