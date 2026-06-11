@@ -1,0 +1,63 @@
+@media (min-width: 768px) {
+    .rating-card {
+        max-width: 412px;
+        padding: var(--spacing-400) var(--spacing-300);
+        border-radius: 30px;
+        gap: var(--spacing-400);
+    }
+
+    .rating-card__icon {
+        width: 48px;
+        height: 48px;
+        border-radius: 24px;
+    }
+
+    .rating-card__icon .rating-card__star {
+        width: 17px;
+        height: 16px;
+    }
+    
+    .rating-card__title {
+        font-size: 28px;
+        font-weight: 700;
+        line-height: 35px; /* 125% */
+    }
+
+    .rating-card__description {
+        font-size: 15.1px;
+        line-height: 24px; /* 157.143% */
+    }
+
+    .rating-card__button {
+        font-size: 16px;
+        line-height: 24px; /* 150% */
+        letter-spacing: 0.2px;
+
+        width: 51px;
+        height: 51px;
+        border-radius: 25.5px;
+    }
+
+    .rating-card__submit {
+        font-weight: 600;
+        line-height: 24px; /* 171.429% */
+        letter-spacing: 0.17px;
+    }
+
+    /* -------------------------------------- */
+
+    .rating-card--thank-you {
+        gap: var(--spacing-400);
+        padding: var(--spacing-500) var(--spacing-400);
+
+    }
+
+    .rating-card__illustration {
+        max-width: 162px;
+    }
+
+    .rating-card__selected-rating {
+        font-size: 15px;
+        line-height: 24px; /* 160% */
+    }
+}

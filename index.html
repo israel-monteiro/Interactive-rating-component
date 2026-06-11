@@ -25,44 +25,52 @@
         <!-- Rating state start -->
 
         <main class="container">
-            <section id="rating-card" class="rating-card">
+            <section id="rating-card" class="rating-card ">
                 <div class="rating-card__icon">
                     <img src="./assets/images/icon-star.svg" alt="Star icon" class="rating-card__star" />
                 </div>
-                <h1 class="rating-card__title">How did we do?</h1>
-                <p class="rating-card__description">
-                    Please let us know how we did with your support request. All feedback is appreciated to help us
-                    improve our offering!
-                </p>
-                <ul class="rating-card__list">
-                    <li class="rating-card__item">
-                        <button type="button" data-rating="1" class="rating-card__button">1</button>
-                    </li>
-                    <li class="rating-card__item">
-                        <button type="button" data-rating="2" class="rating-card__button">2</button>
-                    </li>
-                    <li class="rating-card__item">
-                        <button type="button" data-rating="3" class="rating-card__button">3</button>
-                    </li>
-                    <li class="rating-card__item">
-                        <button type="button" data-rating="4" class="rating-card__button">4</button>
-                    </li>
-                    <li class="rating-card__item">
-                        <button type="button" data-rating="5" class="rating-card__button">5</button>
-                    </li>
-                </ul>
+                <div class="rating-card__content">
+                    <h1 class="rating-card__title">How did we do?</h1>
+                    <p class="rating-card__description">
+                        Please let us know how we did with your support request. All feedback is appreciated to help us
+                        improve our offering!
+                    </p>
+                    <ul class="rating-card__list">
+                        <li class="rating-card__item">
+                            <button type="button" data-rating="1" class="rating-card__button">1</button>
+                        </li>
+                        <li class="rating-card__item">
+                            <button type="button" data-rating="2" class="rating-card__button">2</button>
+                        </li>
+                        <li class="rating-card__item">
+                            <button type="button" data-rating="3" class="rating-card__button">3</button>
+                        </li>
+                        <li class="rating-card__item">
+                            <button type="button" data-rating="4" class="rating-card__button">4</button>
+                        </li>
+                        <li class="rating-card__item">
+                            <button type="button" data-rating="5" class="rating-card__button selected">5</button>
+                        </li>
+                    </ul>
+                </div>
                 <button type="button" id="submit-rating" class="rating-card__submit">Submit</button>
             </section>
 
-            <section id="thank-you-card" class="rating-card hidden">
-                <img src="./assets/images/illustration-thank-you.svg" alt="Thank you illustration" class="rating-card__illustration" />
+            <section id="thank-you-card" class="rating-card rating-card--thank-you hidden">
+                <img
+                    src="./assets/images/illustration-thank-you.svg"
+                    alt="Thank you illustration"
+                    class="rating-card__illustration"
+                />
 
-                <p class="rating-card__selected-rating">You selected <span id="selected-rating"></span> out of 5</p>
-                <h1 class="rating-card__title">Thank you!</h1>
-                <p class="rating-card__description">
-                    We appreciate you taking the time to give a rating. If you ever need more support, don’t hesitate to
-                    get in touch!
-                </p>
+                <p class="rating-card__selected-rating">You selected <span id="selected-rating">1</span> out of 5</p>
+                <div class="rating-card__content">
+                    <h1 class="rating-card__title">Thank you!</h1>
+                    <p class="rating-card__description">
+                        We appreciate you taking the time to give a rating. If you ever need more support, don’t
+                        hesitate to get in touch!
+                    </p>
+                </div>
             </section>
         </main>
     </body>
