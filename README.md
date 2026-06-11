@@ -34,7 +34,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/interactive-rating-component-koxpeBUmI)
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/interactive-rating-component-with-typescript-1iCsnnOIg3)
 - Live Site URL: [Live Demo](https://israel-monteiro.github.io/Interactive-rating-component/)
 - GitHub Repository: [Repository](https://github.com/israel-monteiro/Interactive-rating-component.git)
 
